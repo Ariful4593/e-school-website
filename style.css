@@ -1,25 +1,71 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
-.slider{
-    background-image: url("images/header-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-part{
+    background-color: #F0FFF0;
 }
-.buy-now-btn{
-    background-color: black;
+.sign-btn{
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+}
+.sign-btn:hover{
+    text-decoration: none;
     color: white;
 }
-.card{
-    border: none;
-    box-shadow: 0px 0px 2px lightgrey;
+.get-start-btn{
+    background-color: #21B573;
+    color: white;
+    border-radius: 20px;
+    width: 110px;
+    height: 40px;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
 }
-.cate{
-    border-bottom: 7px solid orange;
-    height: 10px;
+.get-start-btn:hover{
+    text-decoration: none;
+    color: white;
 }
-.cat-bg{
-    box-shadow: 5px 5px 20px lightgrey;
-    border-radius: 10px 24px;
-    height: 250px;
+.learn-with-fun h5{
+    color: orange;
+}
+.learn-with-fun h1{
+    font-size: 55px;
+    font-weight: bold;
+   
+}
+.learn-with-fun span{
+    color: #21B573;
+}
+.learn-anything{
+    background-color: #F8FFFB;
+}
+.online-courses{
+    color: #413960;
+}
+.online-courses-body h5{
+    color: #413960;
+}
+.bg-footer{
+    background-color: #282531;
+}
+.bg-footer p{
+    color: white;
+}
+.footer-left-content{
+    padding-left: 50px;
+}
+.footer li{
+    list-style-type: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-row{
+    padding: 55px;
 }
